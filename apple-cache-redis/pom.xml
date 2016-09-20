@@ -6,7 +6,7 @@
 	<parent>
 		<artifactId>apple-cache</artifactId>
 		<groupId>com.appleframework.cache</groupId>
-		<version>0.1.1.RELEASE</version>
+		<version>0.2.1.RELEASE</version>
 	</parent>
 	<artifactId>apple-cache-redis</artifactId>
 	<name>apple-cache-redis</name>
@@ -62,19 +62,6 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 		</dependency>
-		
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>1.1.42</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.redisson</groupId>
-			<artifactId>redisson</artifactId>
-			<!-- <version>1.2.2.APPLE.RELEASE</version> -->
-			<version>2.2.8.APPLE</version>
-		</dependency>
-		
+				
 	</dependencies>
 </project>
